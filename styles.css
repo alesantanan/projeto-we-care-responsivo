@@ -85,4 +85,41 @@ p{
     color: #000000;
         
 }
+@media screen and (max-width: 900px) {
+  .container-right {
+    display: none;
+  }
 
+  .logo-image {
+    width: 354px;
+    height: 317px;
+    margin: 149px 14px;
+  }
+
+  h1 {
+    position: absolute;
+    font-size: 50px;
+    line-height: 52px;
+    width: auto;
+    text-align: center;
+    top: 490px;
+  }
+
+  h2 {
+    position: absolute;
+    font-size: 30px;
+    line-height: 37px;
+    width: auto;
+    text-align: center;
+    top: 549px;
+  }
+
+  P {
+    display: none;
+  }
+
+  .button-main {
+    position: absolute;
+    margin: -21px 3px;
+  }
+}
